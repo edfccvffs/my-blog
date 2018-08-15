@@ -1,0 +1,91 @@
+nav{
+	background:#F0F8FF;
+	height:50px;
+}
+#banner {
+	background:#0;
+	height:700px;
+}
+nav ul {
+	list-style:none;
+	margin:0;
+	float:right ;
+}
+nav ul li ,nav .logo
+{
+	display:inline-block;
+	line-height: 50px;
+    margin-right: 20px;
+}
+nav ul li a {
+	line-height: 50px;
+	text-decoration: none;
+	height:inherit;
+	color:#000000;
+	
+}
+nav ul li.logo{
+	float:left;
+}
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	top:250px;
+}
+#banner .inner h1{
+	margin:0;
+	
+}
+button
+{
+	border:none;
+	background: #333;
+	color:#eee;
+	padding: 10px 10px;
+}
+#banner .inner .more{
+	margin-top: 100px;
+}
+.logo{
+	font-size:20px;
+	font-weight:700;
+	letter-spacing: 1px;
+	
+}
+.logo a{
+	text-decoration: none;
+	color: #000000;
+}
+.green-section{
+	background:#5F9EA0;
+	text-align:center;
+	color:#0;
+	padding:100px 0;
+}
+.green-section .hr{
+	background: #DDDDDD;
+	width: 60%;
+}
+#wrapper{
+	max-width:1080px;
+	margin: 0 auto;
+}
+.hr {
+	width:100px;
+	height: 2px;
+	margin:20px auto;    
+}
+.sub-heading {
+	font-size: 18px;
+}
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height:80px;
+	background: lightskyblue;
+	transform: rotate(45deg);
+}
+
+
