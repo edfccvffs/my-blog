@@ -1,3 +1,7 @@
+body{
+	padding: 0;
+	margin: 0;
+}
 nav{
 	background:#F0F8FF;
 	height:50px;
@@ -61,7 +65,7 @@ button
 .green-section{
 	background:#5F9EA0;
 	text-align:center;
-	color:#0;
+	color:white;
 	padding:100px 0;
 }
 .green-section .hr{
@@ -87,5 +91,78 @@ button
 	background: lightskyblue;
 	transform: rotate(45deg);
 }
+.gray-section{
+	padding: 150px 0;
+	background: gray;
+	text-align: center;
+}
+.gray-section .two .tr{
+	margin: 0 auto;
+	font-size: 28px;
+	position: relative;
+	top:1px;
+}
+.gray-section .two-w .atr{
+	display: inline-block;
+	width:200px;
+	height:200px;
+	background: darkgray;
+      margin: 20px;
 
+}
+.gray-section .two-w{
+	margin-top: 50px;
+}
 
+.purple-section 
+{
+height: 200px;
+	background:#FAEBD7;
+	text-align: center;
+	margin: 0 auto;
+}
+.purple-section .three h4
+{
+	font-size: 25px;
+	margin: 0;
+   padding: 40px;
+}
+.purple-section .three .ew
+{
+	font-size: 20px;
+	left: 25%;
+	
+}
+.purple-section .three .er
+{
+	text-align: right;
+	font-size: 15px;
+	margin-left: 70px;
+	
+}
+.ff{	
+	background: burlywood;
+	margin: 0;
+	height: 100px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top:-15px
+}
+ul .share-group {
+	display: block;
+	width:1080px;
+	margin:0 auto;
+    padding:10px;
+    
+
+}
+.share-group li{
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	top:5px;
+}
+.cope{
+	padding: 15px;
+}
