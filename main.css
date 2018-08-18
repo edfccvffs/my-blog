@@ -1,13 +1,17 @@
+header{
+	
+	background:url(../img/wwwAIN201407151528000206688125416.jpg) ;
+}
 body{
 	padding: 0;
 	margin: 0;
 }
 nav{
-	background:#F0F8FF;
+	
 	height:50px;
 }
 #banner {
-	background:#0;
+	
 	height:700px;
 }
 nav ul {
@@ -36,7 +40,8 @@ nav ul li.logo{
 	text-align: center;
 	margin:0 auto;
 	position: relative;
-	top:250px;
+	top:300px;
+	
 }
 #banner .inner h1{
 	margin:0;
@@ -45,7 +50,7 @@ nav ul li.logo{
 button
 {
 	border:none;
-	background: #333;
+	background: cornflowerblue;
 	color:#eee;
 	padding: 10px 10px;
 }
@@ -63,18 +68,19 @@ button
 	color: #000000;
 }
 .green-section{
-	background:#5F9EA0;
+	background:url(../img/ArtCamera_1534554317014.jpg);
 	text-align:center;
-	color:white;
+	color:black;
 	padding:100px 0;
 }
 .green-section .hr{
 	background: #DDDDDD;
 	width: 60%;
 }
-#wrapper{
+.wrapper{
 	max-width:1080px;
 	margin: 0 auto;
+	
 }
 .hr {
 	width:100px;
@@ -88,11 +94,13 @@ button
 	display: inline-block;
 	width: 80px;
 	height:80px;
-	background: lightskyblue;
+	background: white;
 	transform: rotate(45deg);
 }
 .gray-section{
-	padding: 150px 0;
+	position: relative;
+	height: 400px;
+	padding: 100px 0;
 	background: gray;
 	text-align: center;
 }
@@ -102,16 +110,25 @@ button
 	position: relative;
 	top:1px;
 }
-.gray-section .two-w .atr{
+
+
+.gray-section .two-w .ret{
 	display: inline-block;
 	width:200px;
-	height:200px;
-	background: darkgray;
-      margin: 20px;
-
+	height:200px;	
+   margin: 20px;
+   border: 1px solid black;
+   position:relative;
+   float: left;
 }
+
 .gray-section .two-w{
-	margin-top: 50px;
+	position: relative;
+	height: 500px;
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+   top:80px;
 }
 
 .purple-section 
