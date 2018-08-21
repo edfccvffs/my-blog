@@ -1,6 +1,6 @@
 header{
 	
-	background:url(../img/wwwAIN201407151528000206688125416.jpg) ;
+	background:url(../img/未标题.jpg);
 }
 body{
 	padding: 0;
@@ -68,19 +68,33 @@ button
 	color: #000000;
 }
 .green-section{
-	background:url(../img/ArtCamera_1534554317014.jpg);
+	background:white;
 	text-align:center;
 	color:black;
 	padding:100px 0;
+	margin: 0  auto;
+	position: relative;
+	height: 400px;
+	
+	
+}
+.green-section .wrapper img{
+	position: relative;
+	left: -500px;
+	top:230px
+	
 }
 .green-section .hr{
-	background: #DDDDDD;
-	width: 60%;
+	background: gold;
+	width: 50%;
+	
 }
 .wrapper{
 	max-width:1080px;
 	margin: 0 auto;
-	
+	position: relative;
+	left: 260px;
+	top:-150px
 }
 .hr {
 	width:100px;
@@ -94,21 +108,25 @@ button
 	display: inline-block;
 	width: 80px;
 	height:80px;
-	background: white;
+	background: gold;
 	transform: rotate(45deg);
 }
 .gray-section{
 	position: relative;
 	height: 400px;
 	padding: 100px 0;
-	background: gray;
+	background:url(../img/未标题-1.jpg);
 	text-align: center;
 }
 .gray-section .two .tr{
+	height: 30px;
+	width: 120px;
+	border: 1px solid #000000;
 	margin: 0 auto;
 	font-size: 28px;
 	position: relative;
 	top:1px;
+	
 }
 
 
@@ -134,7 +152,7 @@ button
 .purple-section 
 {
 height: 200px;
-	background:#FAEBD7;
+	background:url(../img/1009970807ad4a9904.jpg);
 	text-align: center;
 	margin: 0 auto;
 }
@@ -158,10 +176,10 @@ height: 200px;
 	
 }
 .ff{	
-	background: burlywood;
+	background: url(../img/未标题-3.jpg);
 	margin: 0;
 	height: 100px;
-	color: white;
+	color: black;
 	text-align: center;
 	position: relative;
 	top:-15px
