@@ -1,6 +1,6 @@
-header{
+﻿header{
 	
-	background:url(../img/未标题.jpg);
+	background:url(img/未标题.jpg);
 }
 body{
 	padding: 0;
@@ -115,7 +115,7 @@ button
 	position: relative;
 	height: 400px;
 	padding: 100px 0;
-	background:url(../img/未标题-1.jpg);
+	background:url(img/未标题-1.jpg);
 	text-align: center;
 }
 .gray-section .two .tr{
@@ -152,7 +152,7 @@ button
 .purple-section 
 {
 height: 200px;
-	background:url(../img/1009970807ad4a9904.jpg);
+	background:url(img/1009970807ad4a9904.jpg);
 	text-align: center;
 	margin: 0 auto;
 }
@@ -176,7 +176,7 @@ height: 200px;
 	
 }
 .ff{	
-	background: url(../img/未标题-3.jpg);
+	background: url(img/未标题-3.jpg);
 	margin: 0;
 	height: 100px;
 	color: black;
